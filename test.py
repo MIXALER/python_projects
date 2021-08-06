@@ -1,7 +1,6 @@
 import numpy as np
 import cv2
 
-
 def show_random_image():
     img = np.random.random([256, 256, 3])
     cv2.imshow('test', img)

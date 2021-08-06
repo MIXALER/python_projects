@@ -18,7 +18,6 @@ def unit_vec(x):
 
 
 def _orthogonalize(*vecs, **kwargs):
-
     normalize = kwargs.get('normalize', False)
     rankcheck = kwargs.get('rankcheck', False)
 
@@ -58,15 +57,15 @@ def _orthogonalize(*vecs, **kwargs):
 
     return ret
 
-def orthogonalize( *vecs, **kwargs):
+
+def orthogonalize(*vecs, **kwargs):
     return _orthogonalize(*vecs, **kwargs)
 
-def GramSchmidt(vlist, orthonormal=False):
 
+def GramSchmidt(vlist, orthonormal=False):
     return orthogonalize(
         *vlist, normalize=orthonormal, rankcheck=False
     )
-
 
 
 def np_gramSchmidt(vectors):

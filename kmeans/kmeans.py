@@ -66,7 +66,7 @@ class CustomKMeans:
         n = data.shape[0]
 
         # 降维后，在 n 个数据中，随机选取 k 个聚类中心
-        samples = self.data_pca.values # 待聚类样本
+        samples = self.data_pca.values  # 待聚类样本
         init_row = np.random.randint(0, self.data_pca.values.shape[0], self.num_cluster)
         self.centers = samples[init_row]
         for cur_iter in range(self.max_iter):
