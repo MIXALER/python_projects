@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="wangyuxiao@10.147.18.18:22 password" remoteFilesAllowedToDisappearOnAutoupload="false" showNewOnSourceInSync="false">
+  <component name="PublishConfigData" autoUpload="Always" serverName="wangyuxiao@192.168.123.131:22 password" remoteFilesAllowedToDisappearOnAutoupload="false" showNewOnSourceInSync="false">
     <serverData>
-      <paths name="wangyuxiao@10.147.18.18:22 password">
+      <paths name="wangyuxiao@192.168.123.131:22 password">
         <serverdata>
           <mappings>
-            <mapping deploy="/python_proj" local="$PROJECT_DIR$" />
+            <mapping deploy="/data/wangyuxiao/projects/workspace" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="yuanhang@192.168.123.82:22 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/yuanhang/projects/workspace" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>
